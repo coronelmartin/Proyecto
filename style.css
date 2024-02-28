@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-image: url(juego.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+
+}
+
+
+#los_radios{
+
+    border-radius: 20px;
+    border: #603452;
+    margin-bottom: 30px;
+    flex-direction: column;
+    border-style: solid;
+}
+
+
+form{
+
+
+    display: flex;
+    flex-direction: column;
+    padding: 58px;
+    width: 420px;
+    box-shadow: 0 0 20px rgba(red, green, blue, alpha);
+    text-align: center;
+} 
+
+form h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    background-color: green;
+    border-radius: 8px;
+    color: white;
+}
+
+input{
+    padding: 17px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #603452;
+    margin-bottom: 30px;
+    outline: none;
+    color: black;
+    font-size: 16px;
+
+}
+
+::placeholder {
+    color: black;
+
+}
+
+.btn{
+    background-color: brown;
+    border: 2px solid brown;
+    cursor: pointer;
+}
+
+.btn:hover{
+
+    background-color: brown;
+    border: 2px solid brown;
+
+}
+
+
+
+
+
+
+@media (max-width:991px){
+
+    body{
+        padding: 30px;
+    
+    }
+    
+    form{
+        width: 340px;
+        
+    }
+
+}
+
